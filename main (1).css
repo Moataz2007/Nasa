@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    padding:0;
+    color:rgb(6, 21, 81);
+    font-family: sans-serif;
+}
+
+.banner{
+    height: 400px;
+    width: 100%;
+    background-image: url(photos/background.jpg);
+    background-position: center;
+    background-size: cover; 
+    position: relative;    
+}
+div{
+    padding:16px 16px 16px 40px;
+    line-height: 1.8em;
+    word-spacing: 1.5px;
+}
+p{
+    padding:8px 16px 8px 20px;
+}
+li{
+    padding-right: 30px;
+}
+.list h2{
+    padding:-8px -6px;
+    color:rgb(82, 190, 190);
+}
+
+.list-p2{
+    margin:30px;
+}
+
+.list1-p3{
+    margin-left: 40px;
+}
+#list2-p3{
+    list-style-type:disc;
+    margin-left: 40px;
+}
+
+h1{
+    line-height:1.5em;
+    color:rgb(82, 190, 190);
+}
+
+.list ul li{
+    font-size: 16px;
+    padding: 8px 6px;
+    position: relative;
+    list-style-type:disc;
+    font-weight: bold;
+}
+.list ul li a{
+    color: black;
+}
+.l1-p1{
+    margin-left :30px;
+}
+.l2-p1{
+    list-style-type:disc;
+    margin-left: 40px;
+}
+
+ol > li::marker {
+    font-weight: bold;
+}
+.last-list li{
+    line-height: 1.7em;
+    padding-top: 16px;
+    margin-left:30px;
+}
+
